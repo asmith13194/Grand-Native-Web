@@ -1,4 +1,4 @@
-# GRAND-Native-Web Stack Starter
+# GRANDstack Native Web Starter Kit
 
 This project is a starter for building a modified GRANDstack (GraphQL, React, Apollo, Neo4j Database) application with the addition of React-Native-Web and Lerna. There are two components to the starter, the Client application (a React/React Native app) and the API app (GraphQL server).
 
