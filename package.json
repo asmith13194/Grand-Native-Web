@@ -4,8 +4,9 @@
   "description": "This project is a starter for building a GRAND Native Web (GraphQL, React, Apollo, Neo4j Database, React-Native-Web) application. There are two components to the starter, the UI application (a React/React Native app) and the API app (GraphQL server).",
   "main": "index.js",
   "scripts": {
-    "boot": "lerna bootstrap && cd ./packages/api && yarn && cd ../../packages/client && yarn",
+    "bootstrap": "lerna bootstrap && cd ./packages/api && yarn && cd ../../packages/client && yarn & cd ../../",
     "start": "lerna run start-web --parallel --stream",
+    "start-web": "lerna run start-web --parallel --stream",
     "start-ios": "lerna run start-ios --parallel --stream",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

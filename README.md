@@ -1,6 +1,6 @@
 # GRAND-Native-Web Stack Starter
 
-This project is a starter for building a GRAND Native Web (GraphQL, React, Apollo, Neo4j Database, React-Native-Web) application. There are two components to the starter, the UI application (a React/React Native app) and the API app (GraphQL server).
+This project is a starter for building a modified GRANDstack (GraphQL, React, Apollo, Neo4j Database) application with the addition of React-Native-Web and Lerna. There are two components to the starter, the Client application (a React/React Native app) and the API app (GraphQL server).
 
 ## Quickstart
 
@@ -17,32 +17,24 @@ This project is a starter for building a GRAND Native Web (GraphQL, React, Apoll
 10. Wait until it says "RUNNING".
 11. Proceed forward with the rest of the tutorial.
 
-### [`/api`](./api)
-
+Run all commands from project root
 
 *Install dependencies*
 
 ```
-cd ./ui && yarn && yarn seedDb
-cd ./api && yarn
+yarn
+yarn bootstrap
+cd ./packages/client && yarn
+cd ./packages/api && yarn && yarn seedDb
 ```
 
-*Start API server*
-```
-cd ./api && yarn start
-```
+*Start*
 
-### [`/ui`](./ui)
-
-This will start the GraphQL API in the foreground, so in another terminal session start the UI development server:
-
-*Start UI server*
 ```
-cd ./ui && yarn start-ios
+yarn start-web
 or
-cd ./ui && yarn start-web
+yarn start-ios
 ```
-
 
 This project is licensed under the Apache License v2.
 Copyright (c) 2018 Neo4j, Inc.
