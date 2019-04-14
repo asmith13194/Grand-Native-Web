@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "bootstrap": "lerna bootstrap && cd ./packages/api && yarn && cd ../../packages/client && yarn & cd ../../",
+    "seed": "cd ./packages/api && yarn seedDb && ../../",
     "start": "lerna run start-web --parallel --stream",
     "start-web": "lerna run start-web --parallel --stream",
     "start-ios": "lerna run start-ios --parallel --stream",

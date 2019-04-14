@@ -24,8 +24,12 @@ Run all commands from project root
 ```
 yarn
 yarn bootstrap
-cd ./packages/client && yarn
-cd ./packages/api && yarn && yarn seedDb
+```
+
+*Seed Database*
+
+```
+yarn seed
 ```
 
 *Start*
