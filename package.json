@@ -1,0 +1,26 @@
+{
+  "name": "grand-stack-starter",
+  "version": "1.0.0",
+  "description": "This project is a starter for building a GRAND Native Web (GraphQL, React, Apollo, Neo4j Database, React-Native-Web) application. There are two components to the starter, the UI application (a React/React Native app) and the API app (GraphQL server).",
+  "main": "index.js",
+  "scripts": {
+    "boot": "lerna bootstrap && cd ./packages/api && yarn && cd ../../packages/client && yarn",
+    "start": "lerna run start-web --parallel --stream",
+    "start-ios": "lerna run start-ios --parallel --stream",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "lerna": "^3.13.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmith13194/Grand-Native-Web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asmith13194/Grand-Native-Web/issues"
+  },
+  "homepage": "https://github.com/asmith13194/Grand-Native-Web#readme"
+}
