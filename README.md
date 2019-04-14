@@ -17,9 +17,15 @@ This project is a starter for building a modified GRANDstack (GraphQL, React, Ap
 10. Wait until it says "RUNNING".
 11. Proceed forward with the rest of the tutorial.
 
-Run all commands from project root
+#### Project Commands
 
-*Install dependencies*
+*Create Default .env*
+
+```
+yarn env
+```
+
+*Install Dependencies*
 
 ```
 yarn
